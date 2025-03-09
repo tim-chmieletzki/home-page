@@ -1,11 +1,13 @@
-import Navbar from "@/sections/Navbar";
+import Header from "@/sections/Header";
 import Hero from "@/sections/Hero";
+import Projects from "@/sections/Projects";
 
 export default function Home() {
     return (
         <section>
-            <Navbar />
+            <Header />
             <Hero />
+            <Projects />
         </section>
     );
 }
