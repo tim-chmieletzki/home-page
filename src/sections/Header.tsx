@@ -1,19 +1,13 @@
 export default function Header() {
     return (
-        <header className="top-0 sticky flex justify-between items-center bg-black/60 backdrop-blur-md mx-auto mt-6 px-2 py-2 border border-[#2e2e2e] rounded-full max-w-2xl text-sm">
+        <header className="top-6 z-10 sticky flex justify-between items-center bg-black/60 backdrop-blur-md mx-auto mt-6 px-2 py-2 border border-[#2e2e2e] rounded-full max-w-2xl text-sm">
             <a href="" className="flex items-center gap-1 text-white">
                 <span className="bg-white rounded-full w-8 h-8" />
                 <span>Tim Chmieletzki</span>
                 <span className="text-[#a1a1a1]">-</span>
-                <span className="text-[#a1a1a1]">Student für WI</span>
+                <span className="text-[#a1a1a1]">Student</span>
             </a>
             <nav className="flex justify-center items-center rounded-full text-[#a1a1a1]">
-                <a
-                    href=""
-                    className="px-4 hover:text-white transition duration-300"
-                >
-                    Projekte
-                </a>
                 <a
                     href=""
                     className="px-4 hover:text-white transition duration-300"

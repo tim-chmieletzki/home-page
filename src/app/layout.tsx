@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "Tim Chmieletzki",
+    title: "Tim Chmieletzki - Student für Wirtschaftsinformatik",
     description: "Home Page von Tim Chmieletzki",
 };
 

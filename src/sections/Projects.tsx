@@ -1,9 +1,21 @@
 export default function Projects() {
     return (
-        <section className="flex flex-col justify-center items-center bg-red-500 mx-auto max-w-2xl">
-            <div className="bg-yellow-500 w-full">Projekt 1</div>
-            <div className="bg-orange-500 w-full">Projekt 2</div>
-            <div className="bg-blue-500 w-full">Projekt 3</div>
+        <section className="bg-purple-500 mx-auto mt-6 py-16 max-w-2xl">
+            <div className="flex-col justify-center items-center">
+                <h1 className="top-24 sticky bg-blue-500">Projekte</h1>
+                <div className="top-24 sticky flex bg-green-500 w-full h-[500px]">
+                    <h1>Projekt 1</h1>
+                    <div>Bild</div>
+                </div>
+                <div className="top-24 sticky flex bg-blue-500 w-full h-[500px]">
+                    <h1>Projekt 2</h1>
+                    <div>Bild</div>
+                </div>
+                <div className="top-24 sticky flex bg-green-500 w-full h-[500px]">
+                    <h1>Projekt 3</h1>
+                    <div>Bild</div>
+                </div>
+            </div>
         </section>
     );
 }

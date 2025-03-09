@@ -4,5 +4,6 @@
 
 html,
 body {
-    touch-action: none;
+    touch-action: pan-x pan-y;
+    overscroll-behavior: none;
 }
