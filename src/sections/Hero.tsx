@@ -28,13 +28,7 @@ export default function Hero() {
                 </div>
                 <div className="flex gap-6 bg-green-500 pt-6 font-medium">
                     <div className="flex gap-1 bg-[#0a0a0a] hover:bg-white/20 px-3 py-[5px] border border-[#2e2e2e] rounded-full transition duration-300">
-                        <a href="https://github.com/tim-chmieletzki">GitHub</a>
-                        <ArrowUpRight className="text-white" />
-                    </div>
-                    <div className="flex gap-1 bg-[#0a0a0a] hover:bg-white/20 px-3 py-1 border border-[#2e2e2e] rounded-full transition duration-300">
-                        <a href="https://www.linkedin.com/in/tim-chmieletzki-753ba130a/">
-                            LinkedIn
-                        </a>
+                        <a href="https://www.bht-berlin.de/">Uni</a>
                         <ArrowUpRight className="text-white" />
                     </div>
                 </div>
