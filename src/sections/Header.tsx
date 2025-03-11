@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <header className="top-6 z-10 sticky flex justify-between items-center bg-black/60 backdrop-blur-md mx-auto mt-6 px-2 py-2 border border-[#2e2e2e] rounded-full max-w-2xl text-sm">
+        <header className="top-6 z-10 sticky flex justify-between items-center bg-black/60 backdrop-blur-md mx-auto mt-6 px-2 py-2 border border-[#2e2e2e] rounded-full max-w-xl text-sm">
             <a href="" className="flex items-center gap-1 text-white">
                 <span className="bg-white rounded-full w-8 h-8" />
                 <span>Tim Chmieletzki</span>

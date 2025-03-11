@@ -17,20 +17,23 @@ export default function Hero() {
 
     return (
         <section>
-            <div className="bg-purple-500 mx-auto mt-6 py-16 max-w-2xl">
-                <div className="bg-blue-500 font-medium text-4xl">
+            <div className="mx-auto mt-6 py-16 max-w-3xl">
+                <div className="bg-transparent font-medium text-4xl">
                     <h1>{greetings[index]}, mein Name ist Tim.</h1>
                     <p>
-                        Ich bin 21 Jahre alt und studiere aktuell
+                        Ich bin 21 Jahre alt und ich studiere aktuell
                         Wirtschaftsinformatik an der Berliner Hochschule für
                         Technik.
                     </p>
                 </div>
-                <div className="flex gap-6 bg-green-500 pt-6 font-medium">
-                    <div className="flex gap-1 bg-[#0a0a0a] hover:bg-white/20 px-3 py-[5px] border border-[#2e2e2e] rounded-full transition duration-300">
-                        <a href="https://www.bht-berlin.de/">Uni</a>
+                <div className="flex gap-6 pt-8 font-medium">
+                    <a
+                        href="https://www.bht-berlin.de/"
+                        className="flex items-center gap-1 bg-[#0a0a0a] hover:bg-white/20 px-3 py-[5px] border border-[#2e2e2e] rounded-full transition duration-300"
+                    >
+                        <h1>Uni</h1>
                         <ArrowUpRight className="text-white" />
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
