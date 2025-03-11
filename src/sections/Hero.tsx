@@ -18,17 +18,19 @@ export default function Hero() {
     return (
         <section>
             <div className="mx-auto mt-6 py-16 max-w-3xl">
-                <div className="bg-transparent font-medium text-4xl">
+                <div className="bg-transparent font-semibold tracking- text-3xl">
                     <h1>{greetings[index]}, mein Name ist Tim.</h1>
                     <p>
-                        Ich bin 21 Jahre alt und studiere derzeit an der
-                        Berliner Hochschule für Technik Berlin
-                        Wirtschaftsinformatik.
+                        Ich bin aktuell 21 Jahre alt und absolviere gerade mein
+                        Wirtschaftsinformatik-Studium an der Berliner Hochschule
+                        für Technik.
                     </p>
                 </div>
-                <div className="flex gap-6 pt-8 font-medium">
+                <div className="flex gap-6 pt-6 font-medium">
                     <a
                         href="https://www.bht-berlin.de/"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="flex items-center gap-1 bg-[#0a0a0a] hover:bg-white/20 px-3 py-[5px] border border-[#2e2e2e] rounded-full transition duration-300"
                     >
                         <h1>Uni</h1>
