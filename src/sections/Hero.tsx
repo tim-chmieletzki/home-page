@@ -21,9 +21,9 @@ export default function Hero() {
                 <div className="bg-transparent font-medium text-4xl">
                     <h1>{greetings[index]}, mein Name ist Tim.</h1>
                     <p>
-                        Ich bin 21 Jahre alt und ich studiere aktuell
-                        Wirtschaftsinformatik an der Berliner Hochschule für
-                        Technik.
+                        Ich bin 21 Jahre alt und studiere derzeit an der
+                        Berliner Hochschule für Technik Berlin
+                        Wirtschaftsinformatik.
                     </p>
                 </div>
                 <div className="flex gap-6 pt-8 font-medium">

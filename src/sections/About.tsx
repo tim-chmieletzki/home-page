@@ -5,7 +5,7 @@ export default function About() {
             <div className="mx-auto py-16 max-w-3xl">
                 <div className="bg-violet-500">
                     <h1>Über mich</h1>
-                    <p>Kurze Beschreibung</p>
+                    <p>Kurzbeschreibung</p>
                     <div className="flex-col bg-violet-400">
                         <div className="flex">
                             <div>Datum</div>
