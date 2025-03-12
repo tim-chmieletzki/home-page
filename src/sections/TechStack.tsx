@@ -11,6 +11,7 @@ export default function TechStack() {
                         <div>CSS</div>
                         <div>Git</div>
                         <div>Python</div>
+                        <div>etc.</div>
                     </div>
                 </div>
             </div>
